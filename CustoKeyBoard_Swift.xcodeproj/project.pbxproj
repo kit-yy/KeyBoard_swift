@@ -8,24 +8,108 @@
 
 /* Begin PBXBuildFile section */
 		CE7550A51E596EB700C36B00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7550A41E596EB700C36B00 /* AppDelegate.swift */; };
-		CE7550A71E596EB700C36B00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7550A61E596EB700C36B00 /* ViewController.swift */; };
 		CE7550AA1E596EB700C36B00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7550A81E596EB700C36B00 /* Main.storyboard */; };
 		CE7550AC1E596EB700C36B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7550AB1E596EB700C36B00 /* Assets.xcassets */; };
 		CE7550AF1E596EB700C36B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7550AD1E596EB700C36B00 /* LaunchScreen.storyboard */; };
+		CE7550BD1E596F0C00C36B00 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7550BC1E596F0C00C36B00 /* KeyboardViewController.swift */; };
+		CE7550C11E596F0C00C36B00 /* KeyBoard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE7550BA1E596F0C00C36B00 /* KeyBoard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CE7550D21E59729E00C36B00 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550C61E59729E00C36B00 /* back.jpg */; };
+		CE7550D31E59729E00C36B00 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550C71E59729E00C36B00 /* image1.jpg */; };
+		CE7550D41E59729E00C36B00 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550C81E59729E00C36B00 /* image2.jpg */; };
+		CE7550D51E59729E00C36B00 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550C91E59729E00C36B00 /* image3.jpg */; };
+		CE7550D61E59729E00C36B00 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550CA1E59729E00C36B00 /* image4.jpg */; };
+		CE7550D71E59729E00C36B00 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550CB1E59729E00C36B00 /* image5.jpg */; };
+		CE7550D81E59729E00C36B00 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550CC1E59729E00C36B00 /* image6.jpg */; };
+		CE7550D91E59729E00C36B00 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550CD1E59729E00C36B00 /* image7.jpg */; };
+		CE7550DA1E59729E00C36B00 /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550CE1E59729E00C36B00 /* image8.jpg */; };
+		CE7550DB1E59729E00C36B00 /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550CF1E59729E00C36B00 /* image9.jpg */; };
+		CE7550DC1E59729E00C36B00 /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550D01E59729E00C36B00 /* image10.jpg */; };
+		CE7550DD1E59729E00C36B00 /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550D11E59729E00C36B00 /* image11.jpg */; };
+		CE7550EA1E5972A600C36B00 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550DE1E5972A600C36B00 /* back.jpg */; };
+		CE7550EB1E5972A600C36B00 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550DF1E5972A600C36B00 /* image1.jpg */; };
+		CE7550EC1E5972A600C36B00 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E01E5972A600C36B00 /* image2.jpg */; };
+		CE7550ED1E5972A600C36B00 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E11E5972A600C36B00 /* image3.jpg */; };
+		CE7550EE1E5972A600C36B00 /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E21E5972A600C36B00 /* image4.jpg */; };
+		CE7550EF1E5972A600C36B00 /* image5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E31E5972A600C36B00 /* image5.jpg */; };
+		CE7550F01E5972A600C36B00 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E41E5972A600C36B00 /* image6.jpg */; };
+		CE7550F11E5972A600C36B00 /* image7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E51E5972A600C36B00 /* image7.jpg */; };
+		CE7550F21E5972A600C36B00 /* image8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E61E5972A600C36B00 /* image8.jpg */; };
+		CE7550F31E5972A600C36B00 /* image9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E71E5972A600C36B00 /* image9.jpg */; };
+		CE7550F41E5972A600C36B00 /* image10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E81E5972A600C36B00 /* image10.jpg */; };
+		CE7550F51E5972A600C36B00 /* image11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE7550E91E5972A600C36B00 /* image11.jpg */; };
+		CE7550F71E59739A00C36B00 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7550F61E59739A00C36B00 /* FirstTableViewController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7550BF1E596F0C00C36B00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7550991E596EB700C36B00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7550B91E596F0C00C36B00;
+			remoteInfo = KeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE7550C51E596F0C00C36B00 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE7550C11E596F0C00C36B00 /* KeyBoard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CE7550A11E596EB700C36B00 /* CustoKeyBoard_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustoKeyBoard_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7550A41E596EB700C36B00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE7550A61E596EB700C36B00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE7550A91E596EB700C36B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE7550AB1E596EB700C36B00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE7550AE1E596EB700C36B00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE7550B01E596EB700C36B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7550BA1E596F0C00C36B00 /* KeyBoard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = KeyBoard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7550BC1E596F0C00C36B00 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		CE7550BE1E596F0C00C36B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7550C61E59729E00C36B00 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		CE7550C71E59729E00C36B00 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		CE7550C81E59729E00C36B00 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		CE7550C91E59729E00C36B00 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		CE7550CA1E59729E00C36B00 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		CE7550CB1E59729E00C36B00 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		CE7550CC1E59729E00C36B00 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		CE7550CD1E59729E00C36B00 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		CE7550CE1E59729E00C36B00 /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		CE7550CF1E59729E00C36B00 /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		CE7550D01E59729E00C36B00 /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		CE7550D11E59729E00C36B00 /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		CE7550DE1E5972A600C36B00 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		CE7550DF1E5972A600C36B00 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		CE7550E01E5972A600C36B00 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		CE7550E11E5972A600C36B00 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		CE7550E21E5972A600C36B00 /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image4.jpg; sourceTree = "<group>"; };
+		CE7550E31E5972A600C36B00 /* image5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image5.jpg; sourceTree = "<group>"; };
+		CE7550E41E5972A600C36B00 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image6.jpg; sourceTree = "<group>"; };
+		CE7550E51E5972A600C36B00 /* image7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image7.jpg; sourceTree = "<group>"; };
+		CE7550E61E5972A600C36B00 /* image8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image8.jpg; sourceTree = "<group>"; };
+		CE7550E71E5972A600C36B00 /* image9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image9.jpg; sourceTree = "<group>"; };
+		CE7550E81E5972A600C36B00 /* image10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image10.jpg; sourceTree = "<group>"; };
+		CE7550E91E5972A600C36B00 /* image11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image11.jpg; sourceTree = "<group>"; };
+		CE7550F61E59739A00C36B00 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CE75509E1E596EB700C36B00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7550B71E596F0C00C36B00 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7550A31E596EB700C36B00 /* CustoKeyBoard_Swift */,
+				CE7550BB1E596F0C00C36B00 /* KeyBoard */,
 				CE7550A21E596EB700C36B00 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CE7550A11E596EB700C36B00 /* CustoKeyBoard_Swift.app */,
+				CE7550BA1E596F0C00C36B00 /* KeyBoard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +140,47 @@
 		CE7550A31E596EB700C36B00 /* CustoKeyBoard_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				CE7550C61E59729E00C36B00 /* back.jpg */,
+				CE7550C71E59729E00C36B00 /* image1.jpg */,
+				CE7550C81E59729E00C36B00 /* image2.jpg */,
+				CE7550C91E59729E00C36B00 /* image3.jpg */,
+				CE7550CA1E59729E00C36B00 /* image4.jpg */,
+				CE7550CB1E59729E00C36B00 /* image5.jpg */,
+				CE7550CC1E59729E00C36B00 /* image6.jpg */,
+				CE7550CD1E59729E00C36B00 /* image7.jpg */,
+				CE7550CE1E59729E00C36B00 /* image8.jpg */,
+				CE7550CF1E59729E00C36B00 /* image9.jpg */,
+				CE7550D01E59729E00C36B00 /* image10.jpg */,
+				CE7550D11E59729E00C36B00 /* image11.jpg */,
 				CE7550A41E596EB700C36B00 /* AppDelegate.swift */,
-				CE7550A61E596EB700C36B00 /* ViewController.swift */,
+				CE7550F61E59739A00C36B00 /* FirstTableViewController.swift */,
 				CE7550A81E596EB700C36B00 /* Main.storyboard */,
 				CE7550AB1E596EB700C36B00 /* Assets.xcassets */,
 				CE7550AD1E596EB700C36B00 /* LaunchScreen.storyboard */,
 				CE7550B01E596EB700C36B00 /* Info.plist */,
 			);
 			path = CustoKeyBoard_Swift;
+			sourceTree = "<group>";
+		};
+		CE7550BB1E596F0C00C36B00 /* KeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE7550DE1E5972A600C36B00 /* back.jpg */,
+				CE7550DF1E5972A600C36B00 /* image1.jpg */,
+				CE7550E01E5972A600C36B00 /* image2.jpg */,
+				CE7550E11E5972A600C36B00 /* image3.jpg */,
+				CE7550E21E5972A600C36B00 /* image4.jpg */,
+				CE7550E31E5972A600C36B00 /* image5.jpg */,
+				CE7550E41E5972A600C36B00 /* image6.jpg */,
+				CE7550E51E5972A600C36B00 /* image7.jpg */,
+				CE7550E61E5972A600C36B00 /* image8.jpg */,
+				CE7550E71E5972A600C36B00 /* image9.jpg */,
+				CE7550E81E5972A600C36B00 /* image10.jpg */,
+				CE7550E91E5972A600C36B00 /* image11.jpg */,
+				CE7550BC1E596F0C00C36B00 /* KeyboardViewController.swift */,
+				CE7550BE1E596F0C00C36B00 /* Info.plist */,
+			);
+			path = KeyBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +193,34 @@
 				CE75509D1E596EB700C36B00 /* Sources */,
 				CE75509E1E596EB700C36B00 /* Frameworks */,
 				CE75509F1E596EB700C36B00 /* Resources */,
+				CE7550C51E596F0C00C36B00 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE7550C01E596F0C00C36B00 /* PBXTargetDependency */,
 			);
 			name = CustoKeyBoard_Swift;
 			productName = CustoKeyBoard_Swift;
 			productReference = CE7550A11E596EB700C36B00 /* CustoKeyBoard_Swift.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CE7550B91E596F0C00C36B00 /* KeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7550C21E596F0C00C36B00 /* Build configuration list for PBXNativeTarget "KeyBoard" */;
+			buildPhases = (
+				CE7550B61E596F0C00C36B00 /* Sources */,
+				CE7550B71E596F0C00C36B00 /* Frameworks */,
+				CE7550B81E596F0C00C36B00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoard;
+			productName = KeyBoard;
+			productReference = CE7550BA1E596F0C00C36B00 /* KeyBoard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +234,11 @@
 				TargetAttributes = {
 					CE7550A01E596EB700C36B00 = {
 						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CE7550B91E596F0C00C36B00 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4G7E7A5Y4A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -114,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				CE7550A01E596EB700C36B00 /* CustoKeyBoard_Swift */,
+				CE7550B91E596F0C00C36B00 /* KeyBoard */,
 			);
 		};
 /* End PBXProject section */
@@ -123,9 +267,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7550D61E59729E00C36B00 /* image4.jpg in Resources */,
+				CE7550D71E59729E00C36B00 /* image5.jpg in Resources */,
+				CE7550DD1E59729E00C36B00 /* image11.jpg in Resources */,
+				CE7550D21E59729E00C36B00 /* back.jpg in Resources */,
+				CE7550DB1E59729E00C36B00 /* image9.jpg in Resources */,
+				CE7550D31E59729E00C36B00 /* image1.jpg in Resources */,
+				CE7550DA1E59729E00C36B00 /* image8.jpg in Resources */,
+				CE7550DC1E59729E00C36B00 /* image10.jpg in Resources */,
 				CE7550AF1E596EB700C36B00 /* LaunchScreen.storyboard in Resources */,
 				CE7550AC1E596EB700C36B00 /* Assets.xcassets in Resources */,
+				CE7550D81E59729E00C36B00 /* image6.jpg in Resources */,
+				CE7550D41E59729E00C36B00 /* image2.jpg in Resources */,
+				CE7550D91E59729E00C36B00 /* image7.jpg in Resources */,
+				CE7550D51E59729E00C36B00 /* image3.jpg in Resources */,
 				CE7550AA1E596EB700C36B00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7550B81E596F0C00C36B00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7550EA1E5972A600C36B00 /* back.jpg in Resources */,
+				CE7550F31E5972A600C36B00 /* image9.jpg in Resources */,
+				CE7550EF1E5972A600C36B00 /* image5.jpg in Resources */,
+				CE7550F01E5972A600C36B00 /* image6.jpg in Resources */,
+				CE7550F11E5972A600C36B00 /* image7.jpg in Resources */,
+				CE7550EE1E5972A600C36B00 /* image4.jpg in Resources */,
+				CE7550EC1E5972A600C36B00 /* image2.jpg in Resources */,
+				CE7550EB1E5972A600C36B00 /* image1.jpg in Resources */,
+				CE7550F21E5972A600C36B00 /* image8.jpg in Resources */,
+				CE7550F41E5972A600C36B00 /* image10.jpg in Resources */,
+				CE7550ED1E5972A600C36B00 /* image3.jpg in Resources */,
+				CE7550F51E5972A600C36B00 /* image11.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,12 +311,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7550A71E596EB700C36B00 /* ViewController.swift in Sources */,
+				CE7550F71E59739A00C36B00 /* FirstTableViewController.swift in Sources */,
 				CE7550A51E596EB700C36B00 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE7550B61E596F0C00C36B00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7550BD1E596F0C00C36B00 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7550C01E596F0C00C36B00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7550B91E596F0C00C36B00 /* KeyBoard */;
+			targetProxy = CE7550BF1E596F0C00C36B00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE7550A81E596EB700C36B00 /* Main.storyboard */ = {
@@ -257,6 +448,7 @@
 		CE7550B41E596EB700C36B00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustoKeyBoard_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -269,11 +461,40 @@
 		CE7550B51E596EB700C36B00 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CustoKeyBoard_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yasuaki.CustoKeyBoard-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE7550C31E596F0C00C36B00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4G7E7A5Y4A;
+				INFOPLIST_FILE = KeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasuaki.CustoKeyBoard-Swift.KeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE7550C41E596F0C00C36B00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4G7E7A5Y4A;
+				INFOPLIST_FILE = KeyBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yasuaki.CustoKeyBoard-Swift.KeyBoard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -295,6 +516,14 @@
 			buildConfigurations = (
 				CE7550B41E596EB700C36B00 /* Debug */,
 				CE7550B51E596EB700C36B00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE7550C21E596F0C00C36B00 /* Build configuration list for PBXNativeTarget "KeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7550C31E596F0C00C36B00 /* Debug */,
+				CE7550C41E596F0C00C36B00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
